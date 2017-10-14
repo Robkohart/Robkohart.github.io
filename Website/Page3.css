@@ -1,0 +1,20 @@
+body { background: lightgray;
+		font-family: cursive;
+       color: black;
+       font-size: 14pt; }
+.topnav { background: navy;
+   		  overflow: hidden;}
+.topnav a {
+    float: left;
+    display: block;
+    color: White;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;}
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;}
